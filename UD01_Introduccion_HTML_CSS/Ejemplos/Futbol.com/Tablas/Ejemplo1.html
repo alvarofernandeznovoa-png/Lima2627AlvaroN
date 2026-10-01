@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de tabla básica</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Este es el titulo de la tabla</caption>
+        <thead>
+            <!--filas que forman parte del encabezado de la tabla-->
+            <tr><!--tr es el table row-->
+                <th scope="col">Encabezado columna 1</th>
+                <th scope="col">Encabezado columna 2</th>
+                <th scope="col">Encabezado columna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--filas que forman parte del cuerpo de la tabla-->
+            <tr>
+                <th scope="row">Esto encabeza una fila y es correcto</th>
+                <td colspan="">Esto es un dato</td>
+                <td colspan="">Esto es otro dato</td>
+            </tr>
+            <tr>
+                <th scope="row">Encabezado de la fila 2</th>
+                <td>Primer dato de la fila 2</td>
+                <td>Segundo dato de la fila 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--filas que forman parte del pie de la tabla-->
+            <tr>
+                <td>dato</td>
+                <td>dato</td>
+                <td>dato</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
