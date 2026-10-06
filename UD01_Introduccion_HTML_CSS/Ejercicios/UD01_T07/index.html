@@ -11,39 +11,47 @@
 
 <body>
     <table border="1">
+        <caption>Horario de grupo</caption>
         <thead>
-            <th colspan="6">1ª DAM</th>
+            <th scope="colgroup" colspan="6">1ª DAM</th>
         </thead>
         <tbody>
             <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <th scope="rowgroup"> <time datetime="HH:MM">8:30 <br>
+                        9:20</time></th>
+                <td rowspan="2">BD <br> Erica <address>Aula 1ª DAM</address>
+                </td>
+                <td>ContDes <br> Cristina <address>Aula 1ª DAM</address>
+                </td>
+                <td>IngProf <br> Cristina <address>Aula 1ª DAM</address>
+                </td>
+                <td rowspan="2">BD <br> Erica <address>Aula 1ª DAM</address>
+                </td>
+                <td rowspan="2">Lima <br> Janeiro <address>Aula 1º DAM</address>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row"><time datetime="HH:MM">9:20 <br>
+                        10:10</time> </th>
+                <td>Lima <br> Janeiro <address>Aula 1º DAM</address>
+                </td>
+                <td>ContDes <br> Cristina <address>Aula 1ª DAM</address>
+                </td>
+            </tr>
+            <tr>
                 <td></td>
-                <td>Lunes</td>
-                <td>Martes</td>
-                <td>Miercoles</td>
-                <td>Jueves</td>
-                <td>Viernes</td>
+                <th scope="row" colspan="5">recreo</th>
             </tr>
             <tr>
-                <td>8:30
-                    9:20</td>
-                <td rowspan="2">BD Erica Aula 1ª DAM</td>
-                <td>ContDes Cristina Aula 1ª DAM</td>
-                <td>IngProf Cristina Aula 1ª DAM</td>
-                <td rowspan="2">BD Erica Aula 1ª DAM</td>
-                <td rowspan="2">Lima Janeiro Aula 1º DAM</td>
-            </tr>
-            <tr>
-                <td>9:20
-                    10:10</td>
-                <td>Lima Janeiro Aula 1º DAM</td>
-                <td>ContDes Cristina Aula 1ª DAM</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td colspan="5">recreo</td>
-            </tr>
-            <tr>
-                <td>10:30 11:20</td>
+                <th scope="rowgroup"><time datetime="HH:MM">10:30 <br> 11:20</time> </th>
                 <td>ItPerEmpl Iria V. Aula 1ª DAM</td>
                 <td>IngProf Cristina Aula 1ª DAM</td>
                 <td rowspan="2">SistInf Lucas Aula 1º DAM</td>
@@ -51,17 +59,17 @@
                 <td rowspan="2">Prog Toni Aula 1º DAM</td>
             </tr>
             <tr>
-                <td>11:20 12:10</td>
+                <th scope="rowgroup"><time datetime="HH:MM">11:20 <br>12:10</time></th>
                 <td>ContDes Cristina Aula 1ª DAM</td>
                 <td>BD Erica Aula 1ª DAM</td>
                 <td>SustAplicSistProd</td>
             </tr>
             <tr>
                 <td></td>
-                <td colspan="5">recreo</td>
+                <th scope="row" colspan="5">recreo</th>
             </tr>
             <tr>
-                <td>12:30 13:20</td>
+                <th scope="rowgroup"><time datetime="HH:MM">12:30 <br> 13:20</time> </th>
                 <td rowspan="2">SistInf Lucas Aula 1º DAM</td>
                 <td rowspan="2">Prog Toni Aula 1º DAM</td>
                 <td rowspan="2">BD Erica Aula 1ª DAM</td>
@@ -69,11 +77,11 @@
                 <td rowspan="2">SistInf Lucas Aula 1º DAM</td>
             </tr>
             <tr>
-                <td>13:20 14:10</td>
+                <th scope="col"> <time datetime="HH:MM">13:20 <br> 14:10</time> </th>
             </tr>
             <tr>
-                <td>14:10 14:50</td>
-                <td colspan="5">mediodia</td>
+                <th></th>
+                <th scope="row" colspan="5">mediodia</th>
             </tr>
             <tr>
                 <td>14:50
