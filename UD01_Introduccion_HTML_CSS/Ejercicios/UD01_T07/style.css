@@ -1,12 +1,45 @@
 table {
     border: 1px solid blue;
     border-collapse: collapse;
+    background-color: rgb(247, 247, 247);
+}
+th{
+    color: rgb(0, 225, 255);
 }
 
 th,
 td {
     border: 1px solid blue;
 }
-.bd{
+
+.bd {
     background-color: pink;
+}
+
+.lm {
+    background-color: rgba(119, 20, 20, 0.678);
+}
+
+.cd {
+    background-color: orange;
+}
+
+.ing {
+    background-color: darkorchid;
+}
+
+.sis {
+    background-color: cyan;
+}
+
+.prog {
+    background-color: greenyellow;
+}
+
+.ip {
+    background-color: darksalmon;
+}
+
+.sus {
+    background-color: blue;
 }
