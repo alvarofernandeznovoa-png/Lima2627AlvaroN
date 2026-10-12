@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+address {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+}
