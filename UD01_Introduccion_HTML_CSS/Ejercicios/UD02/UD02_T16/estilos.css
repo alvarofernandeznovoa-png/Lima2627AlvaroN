@@ -1,0 +1,21 @@
+h1,
+h3,
+hr {
+    border-bottom: 12px, solid, brown;
+    color: brown;
+}
+
+blockquote {
+    background-color: rgb(204, 198, 198);
+    border-left: 12px, solid, brown;
+
+}
+
+abbr {
+    color: red;
+}
+
+.fecha {
+    background-color: red;
+    color: white;
+}

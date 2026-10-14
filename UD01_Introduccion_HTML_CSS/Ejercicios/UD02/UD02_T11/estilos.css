@@ -16,7 +16,7 @@ address {
     margin-top: 20px;
 }
 
-hr {
-    border: none;
-    border-top: 2px solid black;
+#hrp {
+    max-width: 450%;
+    width: 50%;
 }
