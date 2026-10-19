@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="alvaro">
+    <meta name="keywords" content="html">
+    <title>Formulario de rexistro</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="name" placeholder="Introduce tu nombre" required="required" maxlength="50">
+        <br><br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos" required="required"
+            maxlength="50">
+        <br><br>
+
+        <label for="sexo">Sexo<br>
+            <input type="radio" name="sexo" value="hombre">
+            <label for="sexo">Hombre</label><br>
+            <input type="radio" name="sexo" value="mujer">
+            <label for="sexo">Mujer</label>
+        </label>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Correo electronico" required="required">
+        <br><br>
+        <label for="poblacion">Poblacion</label>
+        <select name="poblacion" id="poblacion">
+            <option value="a coruña">A Coruña</option>
+            <option value="lugo">Lugo</option>
+            <option value="ourense">Ourense</option>
+            <option value="pontevedra">Pontevedra</option>
+        </select>
+        <br><br>
+        <label for="descricion">Descricion</label>
+        <textarea name="descricion" id="descricion"></textarea>
+        <br><br>
+        <input type="checkbox" name="checkbox" value="si" checked>
+        <label for="checkbox">Desexo recibir informacion sobre novidades e ofertas</label>
+        <br><br>
+        <input type="checkbox" name="checkbox">
+        <label for="checkbox">Declaro aceptar as condicións xerais do programa e a normativa sobre protección de
+            datos</label>
+        <br><br>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+
+</html>
