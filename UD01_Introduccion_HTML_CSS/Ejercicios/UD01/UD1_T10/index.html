@@ -10,7 +10,41 @@
 </head>
 
 <body>
-    <form action="#" method="get"></form>
+    <form action="#" method="get">
+        <label for="nombre">Nombre:
+            <input type="text" autofocus="autofocus" required="required" name="name" id="nombre">
+        </label>
+        <br>
+        <label for="email">Correo electrónico:
+            <input type="email" name="correo" id="email" required="required">
+        </label>
+        <br>
+        <label for="url">ULR:
+            <input type="url" name="enlace" id="url" placeholder="Escribe a URL da túa web  persoal">
+        </label>
+        <br>
+        <label for="fech">Fecha:
+            <input type="date" name="date" id="fech">
+        </label>
+        <br>
+        <label for="hour">Hora:
+            <input type="time" name="hora" id="hour">
+        </label>
+        <br>
+        <label for="tele">Telefono:
+            <input type="tel" name="telefono" id="tele">
+        </label>
+        <br>
+        <label for="edad">Edad:
+            <input type="number" name="age" id="edad" max="65" min="18">
+        </label>
+        <br>
+        <label for="cor">Color:
+            <input type="color" name="col" id="cor">
+        </label>
+        <br>
+        <input type="button" value="enviar">
+    </form>
 </body>
 
 </html>
