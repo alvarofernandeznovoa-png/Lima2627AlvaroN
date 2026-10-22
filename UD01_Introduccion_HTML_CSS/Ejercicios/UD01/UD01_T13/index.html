@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="alvaro">
+    <meta name="keywords" content="html css">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Formulario de inscricion</title>
+</head>
+
+<body>
+    <h1>Inscripcion actividad formativa</h1>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" maxlength="30" pattern="" placeholder="Nombre">
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" required minlength="3" maxlength="50" pattern=""
+            placeholder="Apellidos">
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correo" id="correo" required placeholder="...@gmail.com">
+
+        <label for="edad">Edad</label>
+        <input type="text" name="edad" id="edad" required min="16" max="99" placeholder="Edad">
+
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono" name="telefono" pattern="" maxlength="9" placeholder="9 dijitos">
+
+        <label for="codigo">Codigo postal</label>
+        <input type="text" id="codigo" name="codigo" required pattern="" maxlength="5" placeholder="5 dijitos">
+
+        <label for="hermanos">Numero de hermanos</label>
+        <input type="text" name="hermanos" id="hermanos" min="0" max="15" placeholder="Numero de hermanos">
+
+        <label for="web">Pagina web personal</label>
+        <input type="url" id="web" name="web" placeholder="https://ejemplo.com">
+
+        <div class="botones">
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablecer</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

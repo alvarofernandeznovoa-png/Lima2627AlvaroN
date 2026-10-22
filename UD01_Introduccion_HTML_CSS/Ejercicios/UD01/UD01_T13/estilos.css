@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input:required:valid {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+input:optional:valid {
+    background-color: white;
+    border-color: green;
+}
+
+input:optional:invalid {
+    background-color: white;
+    border-color: red;
+}
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
