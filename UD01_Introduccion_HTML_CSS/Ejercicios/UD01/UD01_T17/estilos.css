@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+:root {
+    --marfil: #f7f0df;
+    --papel: #fffaf0;
+    --beixe: #eee0c5;
+    --beixe-escuro: #dfc79d;
+    --ocre: #a77736;
+    --ocre-escuro: #68451f;
+    --tinta: #352819;
+    --tinta-suave: #6e5a42;
+    --borde: #b89a6b;
+    --hover: #f0d49a;
+}
