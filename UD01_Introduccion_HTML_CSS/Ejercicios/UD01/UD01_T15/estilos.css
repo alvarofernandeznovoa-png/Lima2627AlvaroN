@@ -1,0 +1,34 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(7n+1) {
+    background-color: red;
+}
+
+tr:nth-child(7n+2) {
+    background-color: orange;
+}
+
+tr:nth-child(7n+3) {
+    background-color: yellow;
+}
+
+tr:nth-child(7n+4) {
+    background-color: green;
+}
+
+tr:nth-child(7n+5) {
+    background-color: cyan;
+}
+
+tr:nth-child(7n+6) {
+    background-color: blue;
+}
+
+tr:nth-child(7n+7) {
+    background-color: purple;
+}
