@@ -1,0 +1,81 @@
+
+/* ESTILOS GENERALES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #34445a;
+    background: #edf1f5;
+}
+
+/* CABECERA */
+
+header {
+    padding: 55px 30px;
+    text-align: center;
+
+    color: white;
+    background: #2864a8;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 34px;
+}
+
+header p {
+    margin: 0;
+    color: #d8e7f8;
+}
+
+/* CONTENIDO */
+
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 25px;
+}
+
+section {
+    margin-bottom: 35px;
+    padding: 25px;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #0000000c;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #2864a8;
+}
+
+section p {
+    line-height: 1.7;
+    color: #536477;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    padding: 35px;
+    text-align: center;
+
+    color: white;
+    background: #243247;
+}
+
+footer a {
+    color: #a9d0ff;
+}
+
+
+html {
+    /* Hace scroll suavemente en la página */
+    scroll-behavior: smooth;
+}

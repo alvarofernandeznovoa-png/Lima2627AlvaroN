@@ -1,0 +1,129 @@
+/* ESTILOS GENERALES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293747;
+    background: #edf1f5;
+}
+
+/* ESCAPARATE */
+
+.escaparate {
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+/* TARJETA DE PRODUCTO */
+
+.producto {
+    width: 360px;
+    height: 600px;
+    margin: calc((100vh - 670px) / 2) auto 0;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px #00000018;
+    position: relative;
+    /* TODO: establecer el contexto de posicionamiento */
+}
+
+.producto img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 14px 14px 0 0;
+}
+
+/* INFORMACIÓN DEL PRODUCTO */
+
+.informacion {
+    padding: 22px;
+}
+
+.categoria {
+    margin: 0 0 12px;
+    color: #3979b8;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.informacion h1 {
+    margin: 0 0 12px;
+    font-size: 23px;
+}
+
+.descripcion {
+    color: #718096;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.precio {
+    margin-top: 20px;
+}
+
+.precio strong {
+    font-size: 23px;
+}
+
+.precio span {
+    margin-left: 8px;
+    color: #9ba6b3;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.comprar {
+    display: block;
+    margin-top: 20px;
+    padding: 13px;
+
+    border-radius: 7px;
+    background: #2864a8;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.acciones {
+    position: absolute;
+    top: 0;
+    right: -55px;
+}
+
+.acciones button {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 3px;
+}
+
+.acciones button:first-child {
+    top: 0;
+}
+
+.acciones button:last-child {
+    top: 50px;
+}
+
+.acciones button:hover {
+    background: blue;
+    color: white;
+}
